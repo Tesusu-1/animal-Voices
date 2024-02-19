@@ -1,0 +1,77 @@
+body {
+  background-color: #ffdfab;
+  text-align: center;
+  overflow: hidden;
+  font-family: "Cherry Bomb One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.voiceButton {
+  font-size: 32px;
+  font-weight: bold;
+  padding: 1% 1%;
+  border-radius: 30px;
+  border-color: #4d4d4d;
+  background-color: #d1f0a8;
+  box-shadow: 0 5px 0 0 #2f5d08;
+}
+
+.head1,
+.heading,
+p {
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #2f5d08;
+}
+
+.head1 {
+  color: #77dd77;
+  font-size: 40px;
+}
+
+.heading {
+  color: #ff66cc;
+}
+
+.voiceButton {
+  color: #836953;
+}
+
+p {
+  color: #49bdf0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.content {
+  color: #ff7f7f;
+}
+
+.flex-container {
+  display: flex;
+  width: 300px;
+  height: 300px;
+}
+
+.flex-item {
+  justify-content: center;
+  border-radius: 5%;
+  margin-left: 6rem;
+}
+
+.flex-container_Button {
+  display: flex;
+}
+
+.flex-item-button {
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  font-size: 40px;
+  margin: 100px;
+  border-radius: 50px;
+  color: snow;
+  background-color: #ffd700;
+  border-color: #4d4d4d;
+  box-shadow: 0 5px 0 0 #2f5d08;
+}

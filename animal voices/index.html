@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/favicon.ico">　
+    <link rel="apple-touch-icon" href="img/favicon.ico" sizes="192x192">
+    <title>どうぶつのこえをあててみよう！</title>
+  </head>
+  <body>
+    <div class="head1"><span class="heading">だれのこえ</span>かわかるかな？</div>
+    <button id="voiceButton" class="voiceButton">こえをきいてね</button>
+    <p>
+      みどりのボタンをおして、<span class="content">「このどうぶつだ！」</span>とおもったら<span class="content">「きいろのボタン」をクリック</span>してね！
+    </p>
+    <div class="flex-container">
+      <img id="horse" src="./img/horse.png" alt="ウマ" class="flex-item" />
+      <img id="elephant" src="./img/elephant.png" alt="ゾウ" class="flex-item" />
+      <img id="dog"src="./img/dog.png" alt="いぬ" class="flex-item" />
+    </div>
+    <div id="Button" class="flex-container_Button"></div>
+      <button id="horseButton" class="flex-item-button">▶️</button>
+      <button id="elephantButton" class="flex-item-button">▶️</button>
+      <button id="dogButton" class="flex-item-button">▶️</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
